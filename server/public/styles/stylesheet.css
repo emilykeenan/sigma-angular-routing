@@ -90,13 +90,19 @@ header {
 #garnetContainer {
   background: hsla(0,0%,100%, 0.8) url('/assets/images/garnet.png') bottom right no-repeat;
   background-size: 30%;
-  border: 3px solid #ffabab;
+  border: 3px solid #e96d6d;
 }
 
 #amethystContainer {
   background: hsla(0,0%,100%, 0.8) url('/assets/images/amethyst.png') bottom right no-repeat;
   background-size: 40%;
-  border: 3px solid #fdabff;
+  border: 3px solid #db58de;
+}
+
+#pearlContainer {
+  background: hsla(0,0%,100%, 0.8) url('/assets/images/pearl.png') bottom right no-repeat;
+  background-size: 35%;
+  border: 3px solid #3fc3ad;
 }
 
 #garnetContainer a, #amethystContainer a, #pearlContainer a {
@@ -112,24 +118,36 @@ header {
 }
 
 #garnetContainer a {
-    background: #ffabab;
+    background: #e96d6d;
 }
 
 #amethystContainer a {
-  background: #fdabff;
+  background: #db58de;
 }
 
-#garnetContainer div {
+#pearlContainer a {
+  background: #3fc3ad;
+}
+
+#garnetContainer div, #amethystContainer div, #pearlContainer div {
   font-size: 1rem;
   width: 40%;
   padding-left: 60px;
 }
 
 #garnetContainer h2 {
-  background: #ffabab;
+  background: #e96d6d;
 }
 
-#homeContainer h2, #garnetContainer h2 {
+#amethystContainer h2 {
+  background: #db58de;
+}
+
+#pearlContainer h2 {
+  background: #3fc3ad;
+}
+
+#homeContainer h2, #garnetContainer h2, #amethystContainer h2, #pearlContainer h2 {
   font-family: 'Passion One', cursive;
   letter-spacing: 3px;
   text-transform: uppercase;
