@@ -2,6 +2,7 @@ body {
   background: url('/assets/images/background.png');
   background-size: 15%;
   margin: 0;
+  font-family: 'Quattrocento Sans', sans-serif;
 }
 
 header {
@@ -29,6 +30,11 @@ header {
   width: 6rem;
   margin-top: 35px;
   border-radius: 50%;
+}
+
+#homeNav img, #garnetNav img, #amethystNav img, #pearlNav img {
+  height: 6rem;
+  width: 6rem;
 }
 
 #homeNav:hover, #garnetNav:hover, #amethystNav:hover, #pearlNav:hover {
@@ -59,4 +65,80 @@ header {
   background: url('/assets/images/pearlNav.png') center center;
   background-size: cover;
   align-self: flex-end;
+}
+
+#homeContainer, #garnetContainer, #amethystContainer, #pearlContainer {
+  padding-bottom: 20px;
+  height: 500px;
+  width: 85%;
+  overflow: scroll;
+  text-align: justify;
+  border-radius: 20px;
+  margin: 40px auto auto auto;
+}
+
+#homeContainer {
+  background: hsla(0,0%,100%, 0.8) url('/assets/images/gems.png') bottom right no-repeat;
+  background-size: 50%;
+  border: 3px solid #9c8fc5;
+}
+
+#homeContainer h2 {
+  background: #9c8fc5;
+}
+
+#garnetContainer {
+  background: hsla(0,0%,100%, 0.8) url('/assets/images/garnet.png') bottom right no-repeat;
+  background-size: 30%;
+  border: 3px solid #ffabab;
+}
+
+#amethystContainer {
+  background: hsla(0,0%,100%, 0.8) url('/assets/images/amethyst.png') bottom right no-repeat;
+  background-size: 40%;
+  border: 3px solid #fdabff;
+}
+
+#garnetContainer a, #amethystContainer a, #pearlContainer a {
+  display: block;
+  width: 45%;
+  padding: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 30px;
+}
+
+#garnetContainer a {
+    background: #ffabab;
+}
+
+#amethystContainer a {
+  background: #fdabff;
+}
+
+#garnetContainer div {
+  font-size: 1rem;
+  width: 40%;
+  padding-left: 60px;
+}
+
+#garnetContainer h2 {
+  background: #ffabab;
+}
+
+#homeContainer h2, #garnetContainer h2 {
+  font-family: 'Passion One', cursive;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 6rem;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 50px;
 }
