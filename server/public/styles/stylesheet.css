@@ -1,0 +1,62 @@
+body {
+  background: url('/assets/images/background.png');
+  background-size: 15%;
+  margin: 0;
+}
+
+header {
+  background: #ffdd4e url('/assets/images/header.png') 20px center no-repeat;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-size: 30%;
+  height: 150px;
+  border-bottom: 5px solid #ef4937;
+}
+
+#navContainer {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  display: flex;
+  margin: auto;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+}
+
+#homeNav, #garnetNav, #amethystNav, #pearlNav {
+  display: inline-block;
+  height: 6rem;
+  width: 6rem;
+  margin-top: 35px;
+  border-radius: 50%;
+}
+
+#homeNav:hover, #garnetNav:hover, #amethystNav:hover, #pearlNav:hover {
+  opacity: 0.8;
+}
+
+.nav a {
+  display: block;
+}
+
+#homeNav {
+  background: url('/assets/images/homeNav.png') center center;
+  background-size: cover;
+  align-self: flex-start;
+}
+
+#garnetNav {
+  background: url('/assets/images/garnetNav.png') center center;
+  background-size: cover;
+}
+
+#amethystNav {
+  background: url('/assets/images/amethystNav.png') center center;
+  background-size: cover;
+}
+
+#pearlNav {
+  background: url('/assets/images/pearlNav.png') center center;
+  background-size: cover;
+  align-self: flex-end;
+}
